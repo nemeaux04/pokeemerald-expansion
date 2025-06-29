@@ -1197,12 +1197,12 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BerryTreeLateStage
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ProfBirch = {
     .tileTag = TAG_NONE,
-    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_3,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_2,
     .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
     .size = 256,
     .width = 16,
     .height = 32,
-    .paletteSlot = PALSLOT_NPC_3,
+    .paletteSlot = PALSLOT_NPC_2,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -1210,7 +1210,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ProfBirch = {
     .oam = &gObjectEventBaseOam_16x32,
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
-    .images = sPicTable_ProfBirch,
+    .images = sPicTable_Wattson,
     .affineAnims = gDummySpriteAffineAnimTable,
 };
 
@@ -2413,12 +2413,12 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Brawly = {
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Wattson = {
     .tileTag = TAG_NONE,
-    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_2,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_3,
     .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
     .size = 256,
     .width = 16,
     .height = 32,
-    .paletteSlot = PALSLOT_NPC_2,
+    .paletteSlot = PALSLOT_NPC_3,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -2426,7 +2426,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Wattson = {
     .oam = &gObjectEventBaseOam_16x32,
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
-    .images = sPicTable_Wattson,
+    .images = sPicTable_ProfBirch,
     .affineAnims = gDummySpriteAffineAnimTable,
 };
 
